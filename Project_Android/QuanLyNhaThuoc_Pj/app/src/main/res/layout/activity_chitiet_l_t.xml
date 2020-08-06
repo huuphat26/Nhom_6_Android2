@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.chitietLT">
+    <TextView
+        style="@style/tieude"
+        android:text="Chi tiết Loai Thuoc"/>
+
+    <EditText
+        android:id="@+id/txtMaThuoc"
+        style="@style/txt" />
+
+    <EditText
+        android:id="@+id/txtTenThuoc"
+        style="@style/txt"/>
+
+    <EditText
+        android:id="@+id/txtDonVi"
+        style="@style/txt" />
+    <EditText
+        android:id="@+id/txtDonGia"
+        style="@style/txt" />
+    />
+
+    <TextView
+        style="@style/tieude" />
+</LinearLayout>

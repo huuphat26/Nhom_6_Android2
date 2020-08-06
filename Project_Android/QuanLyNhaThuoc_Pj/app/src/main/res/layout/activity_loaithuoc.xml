@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vienthuoc"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainLoaiThuoc">
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/title"
+            android:text="QUẢN LÝ LOẠI THUỐC" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner1">
+
+        <TextView
+            android:id="@+id/tvMaThuoc"
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:text="Mã Thuốc :  " />
+
+        <EditText
+            android:id="@+id/txtMaThuoc"
+            style="@style/txt"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/textview"
+            android:text="Tên Thuốc :  " />
+
+        <EditText
+            android:id="@+id/txtTenThuoc"
+            style="@style/txt"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDonVi"
+            style="@style/textview"
+            android:layout_width="78dp"
+            android:text="Đơn Vị :  " />
+
+        <EditText
+            android:id="@+id/txtDonVi"
+            style="@style/txt"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDonGia"
+            style="@style/textview"
+            android:layout_width="80dp"
+            android:text="Đơn Giá:  " />
+
+        <EditText
+            android:id="@+id/txtDonGia"
+            style="@style/txt"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThemThuoc"
+            style="@style/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/btnThem" />
+
+        <Button
+            android:id="@+id/btnSuaThuoc"
+            style="@style/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_system_update_alt_black_24dp"
+            android:text="@string/btnSua" />
+
+        <Button
+            android:id="@+id/btnXoaThuoc"
+            style="@style/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:text="@string/btnXoa" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/liner7"
+
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/lvDanhSachLoaiThuoc"
+            style="@style/lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

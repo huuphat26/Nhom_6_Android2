@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vienthuoc"
+    tools:context="GiaoDien.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/liner6"
+        style="@style/liner"
+        android:layout_below="@id/liner4"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lsNhaThuoc"
+            style="@style/lvds" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        style="@style/liner"
+        android:layout_below="@id/liner3"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThemNT"
+            style="@style/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/bntThem" />
+
+        <Button
+            android:id="@+id/btnSuaNT"
+            style="@style/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_system_update_alt_black_24dp"
+            android:text="@string/bntSua" />
+
+        <Button
+            android:id="@+id/btnXoaNT"
+            style="@style/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:text="@string/bntXoa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        style="@style/liner"
+        android:layout_below="@id/liner2">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/textview"
+            android:text="Địa chỉ: " />
+
+        <EditText
+            android:id="@+id/txtSoLuong"
+            style="@style/edittextNT"
+            android:layout_width="308dp"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        style="@style/liner"
+        android:layout_below="@id/liner1">
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/textview"
+            android:text="Tên Nhà thuốc:  " />
+
+        <EditText
+            android:id="@+id/txtTenNT"
+            style="@style/edittextNT"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/title"
+        android:text="Quản Lý Nhà Thuốc"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        style="@style/liner"
+        android:layout_below="@id/textView6">
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/textview"
+            android:text="Mã nhà thuốc:  " />
+
+        <EditText
+            android:id="@+id/txtMaNT"
+            style="@style/edittextNT"
+            android:layout_width="295dp"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>

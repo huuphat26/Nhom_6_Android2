@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgHinh"
+        android:src="@drawable/banhmikhong"
+        />
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTenBaiHat"
+            android:text="Bánh Mì Không"
+            android:textSize="20sp"
+            android:textColor="#0A0B0B"
+            android:background="#87E3EF"
+            />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/tvDiaChi"-->
+<!--            android:text="TP. HCM"-->
+<!--            />-->
+
+    </LinearLayout>
+</LinearLayout>

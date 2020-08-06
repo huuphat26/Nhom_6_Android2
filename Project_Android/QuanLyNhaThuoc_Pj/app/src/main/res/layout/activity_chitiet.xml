@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vienthuoc"
+    tools:context=".GiaoDien.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/liner6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:animateLayoutChanges="false"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lvChitiet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="50dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner4"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThemct"
+            style="@style/btnThem"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/bntThem" />
+
+        <Button
+            android:id="@+id/btnSuact"
+            style="@style/btnSua"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_system_update_alt_black_24dp"
+            android:text="@string/bntSua" />
+
+        <Button
+            android:id="@+id/btnXoact"
+            style="@style/btnXoa"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:text="@string/bntXoa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/textview"
+            android:text="Số lượng:  " />
+
+        <EditText
+            android:id="@+id/txtSoLuong"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/textview"
+            android:text="Mã thuốc:  " />
+
+        <Spinner
+            android:id="@+id/spMathuocct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/title"
+        android:text="Quản Lý Bán Lẻ"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/textview"
+            android:text="Số hóa đơn:  " />
+
+        <Spinner
+            android:id="@+id/spSohoadonct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

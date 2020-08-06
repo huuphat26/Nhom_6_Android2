@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionLuu"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="Lưu"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/mnChuyen"
+        android:icon="@drawable/ic_create_new_folder_black_24dp"
+        android:title="Chuyen"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/actionThoat"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Thoát"
+        app:showAsAction="ifRoom"></item>
+</menu>

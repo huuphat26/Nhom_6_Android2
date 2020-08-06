@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vienthuoc"
+    tools:context=".GiaoDien.MainHoaDon">
+
+    <TextView
+        android:id="@+id/tvQl"
+        style="@style/title"
+        android:text=" Quản Lý Hóa Đơn " />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQl"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSoHD"
+            style="@style/textview"
+            android:text="Số Hóa Đơn : " />
+
+        <EditText
+            android:id="@+id/txtsohoadon"
+            style="@style/txt"
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMaThuoc"
+            style="@style/textview"
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:text="Mã Nhà Thuốc:  " />
+
+        <Spinner
+            android:id="@+id/spMaNhaThuoc"
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner2"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNgayIn"
+            style="@style/textview"
+            android:layout_width="88dp"
+            android:text="Ngày In:  " />
+
+        <EditText
+            android:id="@+id/txtNgayInHD"
+            style="@style/txt"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/liner7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner3"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bntThemHD"
+            style="@style/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/btnThem" />
+
+        <Button
+
+            android:id="@+id/btnSuaHD"
+            style="@style/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_system_update_alt_black_24dp"
+            android:text="@string/btnSua" />
+
+        <Button
+            android:id="@+id/bntXoaHD"
+            style="@style/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/them"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:text="@string/btnXoa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liner7"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/gvDanhSach"
+            style="@style/gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

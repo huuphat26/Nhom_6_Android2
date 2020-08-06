@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quản Lý Nhà Thuốc</string>s
+    <string name="btnThem">Thêm</string>
+    <string name="btnXoa">Xóa</string>
+    <string name="btnSua">Sửa</string>
+    <string name="btnLuu">Lưu</string>
+    <string name="btnTimKiem">Tìm Kiếm</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tvTenNt">Tên Nhà Thuốc</string>
+    <string name="tvMaNt">Mã Nhà Thuốc</string>
+    <string name="tvDiaChi">Địa Chỉ</string>
+    <string name="tvtimKiem">Tìm Kiếm</string>
+    <string name="bntNhaThuoc">Nhà Thuốc</string>
+    <string name="bntChiTiet">Chi Tiết</string>
+    <string name="bntHoaDon">Hóa Đơn</string>
+    <string name="bntLoaiThuoc">Loại Thuốc</string>
+    <string name="bntThoat">Thoát</string>
+    <string name="bntLưu">Lưu</string>
+    <string name="bntThem">Thêm</string>
+    <string name="bntXoa">Xóa</string>
+    <string name="bntSua">Sửa</string>
+    <string name="bnttimkiem">Tìm Kiếm</string>
+
+    <string name="bntLuu">Lưu</string>
+    <string name="bntTimKiem">Tìm Kiếm</string>
+</resources>

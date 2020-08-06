@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý Nhà Thuốc</string>
+    <string name="btnThem">Add</string>
+    <string name="btnXoa">Delete</string>
+    <string name="btnSua">Update</string>
+    <string name="btnLuu">Save</string>
+    <string name="btnTimKiem">Search</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome "</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="tvTenNt">Medical Name</string>
+    <string name="tvMaNt">Medical Code</string>
+    <string name="tvDiaChi">Address</string>
+    <string name="tvtimKiem">Search</string>
+    <string name="bntNhaThuoc">Medical</string>
+    <string name="bntChiTiet">Detail</string>
+    <string name="bntHoaDon">Bill</string>
+    <string name="bntLoaiThuoc">Type</string>
+    <string name="bntThoat">Exit</string>
+    <string name="bntLưu">Save</string>
+    <string name="bntThem">Add</string>
+    <string name="bntXoa">Delete</string>
+    <string name="bntSua">Update</string>
+    <string name="bnttimkiem">Serach</string>
+    <string name="bntLuu">Save</string>
+    <string name="bntTimKiem">Search</string>
+</resources>

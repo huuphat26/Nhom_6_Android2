@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Drugstore"</string>
+    <string name="tvTenNt">" pharmacy name"</string>
+    <string name="tvMaNt">" pharmacy code"</string>
+    <string name="tvDiaChi">address</string>
+    <string name="tvtimKiem">Search</string>
+    <string name="bntNhaThuoc">" Drugstore"</string>
+    <string name="bntChiTiet">" detail"</string>
+    <string name="bntHoaDon">" bill"</string>
+    <string name="bntLoaiThuoc">type of medicine</string>
+    <string name="bntThoat">Edit</string>
+    <string name="bntLưu">Save</string>
+    <string name="bntThem">Add</string>
+    <string name="bntXoa">Delete</string>
+    <string name="bntSua">update</string>
+    <string name="bnttimkiem">Search</string>
+    <string name="qlnt">pharmacy management</string>
+    <string name="quanli" translatable="false">pharmacy management</string>
+</resources>

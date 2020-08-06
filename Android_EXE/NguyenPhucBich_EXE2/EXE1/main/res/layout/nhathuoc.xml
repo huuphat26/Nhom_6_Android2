@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tdc.edu.vn.bai5.GiaoDien.MainActivity"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/liner6"
+        style="@style/liner"
+        android:layout_below="@id/textView12">
+
+        <ListView
+            android:id="@+id/lsNhaThuoc"
+            style="@style/lvds" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/chitiet"
+        android:layout_below="@id/liner5"
+        android:text="Chi tiết nhà thuốc"
+         />
+
+    <LinearLayout
+        android:id="@+id/liner5"
+        style="@style/liner"
+        android:layout_below="@id/liner4"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/txtTimKiemNT"
+            style="@style/edittext"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/btnTimKiemNT"
+            style="@style/btntimkiem"
+            android:text="@string/bnttimkiem" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        style="@style/liner"
+        android:layout_below="@id/liner3">
+
+        <Button
+            android:id="@+id/btnThemNT"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/bntThem" />
+
+        <Button
+            android:id="@+id/btnSuaNT"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_system_update_alt_black_24dp"
+            android:text="@string/bntSua" />
+
+        <Button
+            android:id="@+id/btnXoaNT"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:text="@string/bntXoa" />
+
+        <Button
+            android:id="@+id/btnNgonNgu"
+            style="@style/btn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/quocki" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner3"
+        style="@style/liner"
+        android:layout_below="@id/liner2">
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/textview"
+            android:text="@string/tvDiaChi" />
+
+        <EditText
+            android:id="@+id/txtDiaChiNT"
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        style="@style/liner"
+        android:layout_below="@id/liner1">
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/textview"
+            android:text="@string/tvTenNt" />
+
+        <EditText
+            android:id="@+id/txtTenNT"
+            style="@style/edittext"
+            android:layout_width="239dp"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/title"
+        android:text="@string/quanli"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        style="@style/liner"
+        android:layout_below="@id/textView6">
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/textview"
+            android:text="@string/tvMaNt" />
+
+        <EditText
+            android:id="@+id/txtMaNT"
+            style="@style/edittext"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+</RelativeLayout>
